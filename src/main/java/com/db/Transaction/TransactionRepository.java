@@ -1,6 +1,5 @@
 package com.db.Transaction;
 
-import com.db.user.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;

@@ -17,5 +17,5 @@ public interface UserService {
     public List<User> findByAccountNumber(String accountNumber);
 
 
-    public List <User> findAll();
+    public List<User> findAll();
 }

@@ -1,7 +1,5 @@
 package com.db.Transaction;
 
-import com.db.user.User;
-
 import java.util.List;
 
 public interface TransactionService {
@@ -19,5 +17,5 @@ public interface TransactionService {
     public List<Transaction> findByAccountNumber(String accountNumber);
 
 
-    public List <Transaction> findAll();
+    public List<Transaction> findAll();
 }
